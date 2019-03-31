@@ -51,8 +51,8 @@ utilizan para importar la información desde las apis de las redes sociales.
 Para importar los datos de Instagram hay que ejecutar lo siguiente:
 
 ```
-python manage.py instagram_import_hashtags
-python manage.py instagram_import_posts_users
+python manage.py instagram_import_hashtags EMAIL
+python manage.py instagram_import_posts_users EMAIL
 ```
 
 Para importar los datos de Twitter hay que ejecutar lo siguiente:
