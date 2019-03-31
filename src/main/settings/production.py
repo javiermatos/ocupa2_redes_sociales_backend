@@ -21,16 +21,16 @@ ALTER USER insights CREATEDB;
 -- DROP DATABASE insights;
 '''
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'insights',
-#         'USER': 'insights',
-#         'PASSWORD': 'gRp&3aSGS&^d-9B7',
-#         'HOST': 'ocupa2.lxd',
-#         'PORT': 5432,
-#     },
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'insights',
+        'USER': 'insights',
+        'PASSWORD': 'gRp&3aSGS&^d-9B7',
+        'HOST': 'ocupa2.javiermatos.com',
+        'PORT': 5432,
+    },
+}
 
 
 ###############################################################################
