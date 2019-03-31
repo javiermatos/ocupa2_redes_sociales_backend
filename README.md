@@ -65,7 +65,7 @@ python manage.py twitter_import_posts_users
 Estos scripts utilizan barras de progreso para hacer más visible el progreso en la importación de datos.
 
 
-### La base matemática y las limitaciones de las apis
+## La base matemática y las limitaciones de las apis
 
 Se nos comentó que la api tiene una limitación en el número de requests. Esto es habitual y el sistema de quotas que
 implementan tiene que ser tenido en cuenta de cara a las soluciones propuestas.
@@ -78,6 +78,15 @@ La forma en que hemos considerado a los usuarios más influyentes es mediante un
 factores que consideramos hay que tener en cuenta.
 
 
-### Notas
+## Grafana
+
+Capturas de pantalla de los dashboards creados para Grafana:
+
+![](docs/grafana_instagram.png)
+
+![](docs/grafana_twitter.png)
+
+
+## Notas
 
 Este proyecto ha sido realizado por Javier Matos para presentar al Hackathon de Ocupa2.
